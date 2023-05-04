@@ -1,10 +1,8 @@
 # Grade Estimator
 
-Stupid little CLI program that simulates passing score combos for weighted grade categories.
-<br>
-Originally intended for simulating exam score combos. Works OK for # categories <= 2.
-<br>
-Always enter the tool's score combos into actual grade webpage to check they are valid combos.
+Stupid little CLI program that simulates passing score combos for weighted grade categories.  
+Originally intended for simulating exam score combos. Works OK for # categories <= 2.  
+**Always enter the tool's score combos into actual grade webpage to check they are valid combos.**
 
 ## Setup on your computer
 1. Create "classes/" directory inside the repo and fill it with .json files for your current semester.
@@ -19,6 +17,7 @@ Always enter the tool's score combos into actual grade webpage to check they are
 Contributions and improvements are welcome.
 
 If you found this tool useful and have a way to improve it, please fork the repo and submit a PR.
+<br>
 I'm the only one managing this repo and am a full-time student, but this project is particularly useful to me so I will respond to PR's within a day or two at most.
 
 ## License
