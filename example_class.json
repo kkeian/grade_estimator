@@ -1,0 +1,29 @@
+{
+    "ClassName": "MATH145",
+    "GradeCategories": [
+        {
+            "Name": "Quizzes",
+            "Weight": 10,
+            "CurrPoints": 50,
+            "PossiblePoints": 50.0
+        },
+        {
+            "Name": "Homework",
+            "Weight": 10,
+            "CurrPoints": 90.0,
+            "PossiblePoints": 100.0
+        },
+        {
+            "Name": "Projects",
+            "Weight": 20,
+            "CurrPoints": 20.0,
+            "PossiblePoints": 50.0
+        },
+        {
+            "Name": "Exams",
+            "Weight": 60,
+            "CurrPoints": 130.0,
+            "PossiblePoints": 400.0
+        }
+    ]
+}
