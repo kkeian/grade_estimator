@@ -6,6 +6,8 @@ import re
 import json
 from colorama import Fore, Style
 
+PASSING_PERCENT = 70
+
 classDir = "classes/"
 for f in os.listdir(classDir):
     if f.endswith("json"):
@@ -120,7 +122,7 @@ if (yes.match(simulateExam) != None):
 
     # Get current class state and objective
     currGrade = round(classG.calcGrade(), 2)
-    toPass = round(72 - currGrade, 2)
+    toPass = round(PASSING_PERCENT - currGrade, 2)
 
     # Store all class categories
     simulatedClassCategories = simulatedClassRes.getCategories()
