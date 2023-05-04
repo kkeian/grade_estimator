@@ -2,6 +2,7 @@
 
 Stupid little CLI program that simulates passing score combos for weighted grade categories.  
 Originally intended for simulating exam score combos. Works OK for # categories <= 2.  
+  
 **Always enter the tool's score combos into actual grade webpage to check they are valid combos.**
 
 ## Setup on your computer
